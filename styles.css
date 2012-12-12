@@ -13,6 +13,10 @@ body {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+.wrapper .content .center img {
+	margin: auto;
+}
+
 .wrapper .navigation table tr td {
 	padding-right: 50px;
 }
@@ -48,8 +52,13 @@ a:hover {
 
 }
 .wrapper .content p img {
-	padding-left: 20px;
+	padding: 20px;
 }
+
 .wrapper .content p a {
 	color: hsl(0,100%,50%);
+}
+.wrapper .content table td {
+	border: thin solid hsl(0,0%,0%);
+	padding: 5px;
 }
