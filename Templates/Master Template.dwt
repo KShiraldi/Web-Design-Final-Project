@@ -12,8 +12,19 @@
 	
 	<body>
 		<div class="wrapper">
-			<div class="navigation">[Navigation goes here] </div>
-			<div class="content"><!-- TemplateBeginEditable name="content" -->[Content Goes here]<!-- TemplateEndEditable --> </div>
+			<div class="navigation">
+				<table>
+					<tr>
+						<td><a href="../index.html">Craft Beer Home</a></td>
+						<td><a href="../why-craft-beer.html">Why Craft Beer?</a></td>
+						<td><a href="../glossary-and-guides.html">Glossary</a></td>
+						<td><a href="../find-craft-beer.html">Find Craft Beer</a></td>
+						<td><a href="../nyc-festival.html">NYC Craft Beer Festival</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="content"><!-- TemplateBeginEditable name="content" --> [Content Goes here] <!-- TemplateEndEditable --> </div>
+			<div class="footer"><img src="../pictures/brewers-association.jpg" alt="Brewers Association Logo" width="180" height="222" /></div>
 		</div>
 	</body>
 </html>
