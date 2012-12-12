@@ -6,15 +6,11 @@ body {
 	padding: 20px;
 }
 .wrapper {
-	background-color: hsl(0,0%,100%);
 	width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-}
-.wrapper .content .center img {
-	margin: auto;
 }
 
 .wrapper .navigation table tr td {
@@ -26,9 +22,8 @@ body {
 
 
 a:hover {
-	font-weight: bold;
+	font-weight: normal;
 	background-color: hsl(60,100%,80%);
-
 }
 .wrapper .content h1 {
 	text-align: center;
@@ -37,15 +32,14 @@ a:hover {
 .wrapper .content {
 	color: hsl(30,100%,20%);
 	padding: 40px;
+	margin-top: 25px;
+	background-color: hsl(0,0%,100%);
 }
 
 .wrapper .navigation table {
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 10px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	padding: 10px;
 }
 .wrapper .footer {
 	padding-left: 425px;
@@ -58,7 +52,24 @@ a:hover {
 .wrapper .content p a {
 	color: hsl(0,100%,50%);
 }
+.wrapper .content .center table tr td a {
+	color: hsl(345,100%,40%);
+}
+
 .wrapper .content table td {
 	border: thin solid hsl(0,0%,0%);
 	padding: 5px;
+}
+.wrapper .content .center table {
+	margin-right: auto;
+	margin-left: auto;
+}
+.wrapper .footer {
+	background-color: hsl(60,100%,80%);
+}
+.wrapper .navigation {
+	background-color: #FFFFFF;
+}
+.wrapper .content table tr th {
+	border: thin solid #000000;
 }
