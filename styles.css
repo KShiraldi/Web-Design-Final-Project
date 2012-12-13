@@ -1,7 +1,7 @@
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 14px;
-	background-color: hsl(60,100%,80%);
+	background-color: hsl(30,100%,20%);
 	margin: 0px;
 	padding: 20px;
 }
@@ -14,7 +14,11 @@ body {
 }
 
 .wrapper .navigation table tr td {
-	padding-right: 50px;
+	padding-right: 20px;
+	border: thick double #990000;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .wrapper .navigation table tr td a {
 	color: hsl(30,100%,20%);
@@ -23,7 +27,7 @@ body {
 
 a:hover {
 	font-weight: normal;
-	background-color: hsl(60,100%,80%);
+	background-color: hsl(0,0%,80%);
 }
 .wrapper .content h1 {
 	text-align: center;
@@ -32,18 +36,16 @@ a:hover {
 .wrapper .content {
 	color: hsl(30,100%,20%);
 	padding: 40px;
-	margin-top: 25px;
-	background-color: hsl(0,0%,100%);
+	background-color: hsl(60,100%,80%);
+	margin: 25px;
 }
+
 
 .wrapper .navigation table {
 	margin-right: auto;
 	margin-left: auto;
-	padding: 10px;
-}
-.wrapper .footer {
-	padding-left: 425px;
-
+	padding: 15px;
+	background-color: #FFFF99;
 }
 .wrapper .content p img {
 	padding: 20px;
@@ -64,11 +66,19 @@ a:hover {
 	margin-right: auto;
 	margin-left: auto;
 }
+.wrapper .content .NYC {
+	padding-left: 135px;
+
+}
+
 .wrapper .footer {
-	background-color: hsl(60,100%,80%);
+	background-color: hsl(30,100%,20%);
+	margin: 25px;
+	padding-left: 410px;
 }
 .wrapper .navigation {
-	background-color: #FFFFFF;
+	background-color: #FFFF99;
+	margin: 25px;
 }
 .wrapper .content table tr th {
 	border: thin solid #000000;
