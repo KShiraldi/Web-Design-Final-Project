@@ -94,3 +94,18 @@ a:hover {
 	background-color: #FFFF99;
 	margin: 25px;
 }
+.wrapper .content img {
+	border: thin solid #600;
+	padding-left: 0px;
+	margin-left: 10px;
+}
+.wrapper .content .none table tr th img {
+	margin: 4px;
+	padding: 0px;
+}
+.wrapper .content .pad img {
+	margin-bottom: 5px;
+}
+.wrapper .footer img {
+	border: thick double #900;
+}
